@@ -1,0 +1,5 @@
+# Python Virtual Environment Folder
+.venv
+
+# Protobuf codegen
+src/core/protobuf
