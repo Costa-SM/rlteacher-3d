@@ -1,6 +1,0 @@
-[submodule "src/libs/Gymnasium"]
-	path = src/libs/Gymnasium
-	url = git@github.com:Farama-Foundation/Gymnasium.git
-[submodule "src/libs/ray"]
-	path = src/libs/ray
-	url = git@github.com:ray-project/ray.git
