@@ -7,7 +7,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 
-PROTO_DIR=src/protobuf
+PROTO_DIR=src/protobufgen
 
 if [ -d "$PROTO_DIR" ];
 then
@@ -17,5 +17,6 @@ fi
 
 echo "Generating protobuf files..."
 python ./scripts/build_proto.py
+touch $PROTO_DIR/__init__.py
 
 popd &> /dev/null

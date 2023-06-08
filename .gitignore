@@ -2,4 +2,4 @@
 .venv
 
 # Protobuf codegen
-src/protobuf
+src/protobufgen
